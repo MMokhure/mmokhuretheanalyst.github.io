@@ -1,0 +1,1178 @@
+﻿[
+    {
+        "region":  "Africa",
+        "date":  "2020-01-01",
+        "new_cases":  0,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2020-02-01",
+        "new_cases":  1,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2020-03-01",
+        "new_cases":  4565,
+        "new_deaths":  140,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2020-04-01",
+        "new_cases":  26756,
+        "new_deaths":  1625,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2020-05-01",
+        "new_cases":  113256,
+        "new_deaths":  2652,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2020-06-01",
+        "new_cases":  234371,
+        "new_deaths":  7537,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2020-07-01",
+        "new_cases":  457877,
+        "new_deaths":  8326,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2020-08-01",
+        "new_cases":  406714,
+        "new_deaths":  11710,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2020-09-01",
+        "new_cases":  218213,
+        "new_deaths":  5890,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2020-10-01",
+        "new_cases":  259853,
+        "new_deaths":  5203,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2020-11-01",
+        "new_cases":  444833,
+        "new_deaths":  8941,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2020-12-01",
+        "new_cases":  496013,
+        "new_deaths":  10613,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-01-01",
+        "new_cases":  915267,
+        "new_deaths":  27997,
+        "vaccinations":  167860
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-02-01",
+        "new_cases":  345901,
+        "new_deaths":  13062,
+        "vaccinations":  4186056
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-03-01",
+        "new_cases":  297086,
+        "new_deaths":  8472,
+        "vaccinations":  8259268
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-04-01",
+        "new_cases":  328534,
+        "new_deaths":  8122,
+        "vaccinations":  7902614
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-05-01",
+        "new_cases":  327255,
+        "new_deaths":  10244,
+        "vaccinations":  14541528
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-06-01",
+        "new_cases":  570581,
+        "new_deaths":  10814,
+        "vaccinations":  16431147
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-07-01",
+        "new_cases":  1065548,
+        "new_deaths":  23199,
+        "vaccinations":  18646264
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-08-01",
+        "new_cases":  1315459,
+        "new_deaths":  31034,
+        "vaccinations":  37420839
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-09-01",
+        "new_cases":  528692,
+        "new_deaths":  14418,
+        "vaccinations":  43823952
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-10-01",
+        "new_cases":  245980,
+        "new_deaths":  8686,
+        "vaccinations":  46967057
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-11-01",
+        "new_cases":  171636,
+        "new_deaths":  4654,
+        "vaccinations":  50691707
+    },
+    {
+        "region":  "Africa",
+        "date":  "2021-12-01",
+        "new_cases":  860899,
+        "new_deaths":  4419,
+        "vaccinations":  61606953
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-01-01",
+        "new_cases":  1433745,
+        "new_deaths":  11437,
+        "vaccinations":  49197786
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-02-01",
+        "new_cases":  622855,
+        "new_deaths":  10072,
+        "vaccinations":  52955210
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-03-01",
+        "new_cases":  218876,
+        "new_deaths":  3285,
+        "vaccinations":  34064710
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-04-01",
+        "new_cases":  137405,
+        "new_deaths":  1135,
+        "vaccinations":  26041349
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-05-01",
+        "new_cases":  275856,
+        "new_deaths":  1259,
+        "vaccinations":  30762612
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-06-01",
+        "new_cases":  164874,
+        "new_deaths":  975,
+        "vaccinations":  54604464
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-07-01",
+        "new_cases":  251232,
+        "new_deaths":  1137,
+        "vaccinations":  37836790
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-08-01",
+        "new_cases":  84512,
+        "new_deaths":  500,
+        "vaccinations":  26756115
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-09-01",
+        "new_cases":  45012,
+        "new_deaths":  251,
+        "vaccinations":  25712614
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-10-01",
+        "new_cases":  37250,
+        "new_deaths":  238,
+        "vaccinations":  35086948
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-11-01",
+        "new_cases":  47581,
+        "new_deaths":  208,
+        "vaccinations":  32094998
+    },
+    {
+        "region":  "Africa",
+        "date":  "2022-12-01",
+        "new_cases":  40998,
+        "new_deaths":  236,
+        "vaccinations":  30447908
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-01-01",
+        "new_cases":  41034,
+        "new_deaths":  163,
+        "vaccinations":  16409248
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-02-01",
+        "new_cases":  17600,
+        "new_deaths":  90,
+        "vaccinations":  16130487
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-03-01",
+        "new_cases":  18587,
+        "new_deaths":  81,
+        "vaccinations":  21820479
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-04-01",
+        "new_cases":  10499,
+        "new_deaths":  78,
+        "vaccinations":  11957166
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-05-01",
+        "new_cases":  10034,
+        "new_deaths":  50,
+        "vaccinations":  26944040
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-06-01",
+        "new_cases":  9007,
+        "new_deaths":  37,
+        "vaccinations":  8936718
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-07-01",
+        "new_cases":  4867,
+        "new_deaths":  18,
+        "vaccinations":  4900901
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-08-01",
+        "new_cases":  3253,
+        "new_deaths":  13,
+        "vaccinations":  3829192
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-09-01",
+        "new_cases":  3870,
+        "new_deaths":  6,
+        "vaccinations":  3775945
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-10-01",
+        "new_cases":  3026,
+        "new_deaths":  14,
+        "vaccinations":  1172319
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-11-01",
+        "new_cases":  4722,
+        "new_deaths":  18,
+        "vaccinations":  254570
+    },
+    {
+        "region":  "Africa",
+        "date":  "2023-12-01",
+        "new_cases":  12898,
+        "new_deaths":  11,
+        "vaccinations":  73563
+    },
+    {
+        "region":  "Africa",
+        "date":  "2024-01-01",
+        "new_cases":  5533,
+        "new_deaths":  18,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2024-02-01",
+        "new_cases":  1682,
+        "new_deaths":  8,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2024-03-01",
+        "new_cases":  981,
+        "new_deaths":  5,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2024-04-01",
+        "new_cases":  872,
+        "new_deaths":  6,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2024-05-01",
+        "new_cases":  786,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2024-06-01",
+        "new_cases":  1368,
+        "new_deaths":  2,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2024-07-01",
+        "new_cases":  690,
+        "new_deaths":  12,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Africa",
+        "date":  "2024-08-01",
+        "new_cases":  36,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-01-01",
+        "new_cases":  0,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-02-01",
+        "new_cases":  0,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-03-01",
+        "new_cases":  0,
+        "new_deaths":  1,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-04-01",
+        "new_cases":  22,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-05-01",
+        "new_cases":  13,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-06-01",
+        "new_cases":  90,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-07-01",
+        "new_cases":  561,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-08-01",
+        "new_cases":  947,
+        "new_deaths":  5,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-09-01",
+        "new_cases":  1288,
+        "new_deaths":  7,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-10-01",
+        "new_cases":  3002,
+        "new_deaths":  12,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-11-01",
+        "new_cases":  4490,
+        "new_deaths":  8,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2020-12-01",
+        "new_cases":  3477,
+        "new_deaths":  6,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-01-01",
+        "new_cases":  7733,
+        "new_deaths":  100,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-02-01",
+        "new_cases":  9104,
+        "new_deaths":  188,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-03-01",
+        "new_cases":  9114,
+        "new_deaths":  241,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-04-01",
+        "new_cases":  9227,
+        "new_deaths":  134,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-05-01",
+        "new_cases":  8448,
+        "new_deaths":  147,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-06-01",
+        "new_cases":  12555,
+        "new_deaths":  276,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-07-01",
+        "new_cases":  32053,
+        "new_deaths":  360,
+        "vaccinations":  10435
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-08-01",
+        "new_cases":  54803,
+        "new_deaths":  776,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-09-01",
+        "new_cases":  21123,
+        "new_deaths":  106,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-10-01",
+        "new_cases":  9231,
+        "new_deaths":  40,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-11-01",
+        "new_cases":  7787,
+        "new_deaths":  11,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2021-12-01",
+        "new_cases":  17414,
+        "new_deaths":  21,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-01-01",
+        "new_cases":  40554,
+        "new_deaths":  142,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-02-01",
+        "new_cases":  51446,
+        "new_deaths":  84,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-03-01",
+        "new_cases":  1195,
+        "new_deaths":  21,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-04-01",
+        "new_cases":  397,
+        "new_deaths":  3,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-05-01",
+        "new_cases":  540,
+        "new_deaths":  3,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-06-01",
+        "new_cases":  16155,
+        "new_deaths":  58,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-07-01",
+        "new_cases":  2955,
+        "new_deaths":  22,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-08-01",
+        "new_cases":  187,
+        "new_deaths":  6,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-09-01",
+        "new_cases":  413,
+        "new_deaths":  3,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-10-01",
+        "new_cases":  29,
+        "new_deaths":  1,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-11-01",
+        "new_cases":  414,
+        "new_deaths":  3,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2022-12-01",
+        "new_cases":  1264,
+        "new_deaths":  1,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-01-01",
+        "new_cases":  1423,
+        "new_deaths":  7,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-02-01",
+        "new_cases":  304,
+        "new_deaths":  2,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-03-01",
+        "new_cases":  72,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-04-01",
+        "new_cases":  26,
+        "new_deaths":  1,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-05-01",
+        "new_cases":  85,
+        "new_deaths":  1,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-06-01",
+        "new_cases":  136,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-07-01",
+        "new_cases":  121,
+        "new_deaths":  3,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-08-01",
+        "new_cases":  53,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-09-01",
+        "new_cases":  24,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-10-01",
+        "new_cases":  80,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-11-01",
+        "new_cases":  49,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2023-12-01",
+        "new_cases":  13,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2024-01-01",
+        "new_cases":  57,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2024-02-01",
+        "new_cases":  132,
+        "new_deaths":  1,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2024-03-01",
+        "new_cases":  37,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2024-04-01",
+        "new_cases":  7,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2024-05-01",
+        "new_cases":  0,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2024-06-01",
+        "new_cases":  46,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2024-07-01",
+        "new_cases":  0,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "Botswana",
+        "date":  "2024-08-01",
+        "new_cases":  0,
+        "new_deaths":  0,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-01-01",
+        "new_cases":  2033,
+        "new_deaths":  62,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-02-01",
+        "new_cases":  76214,
+        "new_deaths":  2409,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-03-01",
+        "new_cases":  611707,
+        "new_deaths":  35799,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-04-01",
+        "new_cases":  2037922,
+        "new_deaths":  178886,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-05-01",
+        "new_cases":  3163451,
+        "new_deaths":  184334,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-06-01",
+        "new_cases":  3936842,
+        "new_deaths":  144336,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-07-01",
+        "new_cases":  6074723,
+        "new_deaths":  162506,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-08-01",
+        "new_cases":  9261926,
+        "new_deaths":  219379,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-09-01",
+        "new_cases":  8143085,
+        "new_deaths":  160002,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-10-01",
+        "new_cases":  10187462,
+        "new_deaths":  156799,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-11-01",
+        "new_cases":  19566436,
+        "new_deaths":  323684,
+        "vaccinations":  0
+    },
+    {
+        "region":  "World",
+        "date":  "2020-12-01",
+        "new_cases":  17255870,
+        "new_deaths":  329388,
+        "vaccinations":  10836163
+    },
+    {
+        "region":  "World",
+        "date":  "2021-01-01",
+        "new_cases":  22070633,
+        "new_deaths":  484000,
+        "vaccinations":  92957277
+    },
+    {
+        "region":  "World",
+        "date":  "2021-02-01",
+        "new_cases":  11022033,
+        "new_deaths":  303230,
+        "vaccinations":  165981022
+    },
+    {
+        "region":  "World",
+        "date":  "2021-03-01",
+        "new_cases":  12861645,
+        "new_deaths":  253439,
+        "vaccinations":  355660307
+    },
+    {
+        "region":  "World",
+        "date":  "2021-04-01",
+        "new_cases":  19601773,
+        "new_deaths":  333155,
+        "vaccinations":  545289487
+    },
+    {
+        "region":  "World",
+        "date":  "2021-05-01",
+        "new_cases":  23734840,
+        "new_deaths":  440629,
+        "vaccinations":  799785184
+    },
+    {
+        "region":  "World",
+        "date":  "2021-06-01",
+        "new_cases":  10822935,
+        "new_deaths":  258619,
+        "vaccinations":  1148981198
+    },
+    {
+        "region":  "World",
+        "date":  "2021-07-01",
+        "new_cases":  13410750,
+        "new_deaths":  234213,
+        "vaccinations":  1068106637
+    },
+    {
+        "region":  "World",
+        "date":  "2021-08-01",
+        "new_cases":  22253836,
+        "new_deaths":  345972,
+        "vaccinations":  1180483902
+    },
+    {
+        "region":  "World",
+        "date":  "2021-09-01",
+        "new_cases":  15484337,
+        "new_deaths":  246781,
+        "vaccinations":  944954227
+    },
+    {
+        "region":  "World",
+        "date":  "2021-10-01",
+        "new_cases":  15086099,
+        "new_deaths":  247085,
+        "vaccinations":  807233118
+    },
+    {
+        "region":  "World",
+        "date":  "2021-11-01",
+        "new_cases":  14569045,
+        "new_deaths":  204631,
+        "vaccinations":  948000326
+    },
+    {
+        "region":  "World",
+        "date":  "2021-12-01",
+        "new_cases":  19380554,
+        "new_deaths":  197605,
+        "vaccinations":  1148526900
+    },
+    {
+        "region":  "World",
+        "date":  "2022-01-01",
+        "new_cases":  94694159,
+        "new_deaths":  268246,
+        "vaccinations":  920159707
+    },
+    {
+        "region":  "World",
+        "date":  "2022-02-01",
+        "new_cases":  59761654,
+        "new_deaths":  281424,
+        "vaccinations":  657336031
+    },
+    {
+        "region":  "World",
+        "date":  "2022-03-01",
+        "new_cases":  46082485,
+        "new_deaths":  175992,
+        "vaccinations":  508191893
+    },
+    {
+        "region":  "World",
+        "date":  "2022-04-01",
+        "new_cases":  26970423,
+        "new_deaths":  85772,
+        "vaccinations":  316096791
+    },
+    {
+        "region":  "World",
+        "date":  "2022-05-01",
+        "new_cases":  18751417,
+        "new_deaths":  61087,
+        "vaccinations":  229320276
+    },
+    {
+        "region":  "World",
+        "date":  "2022-06-01",
+        "new_cases":  15145267,
+        "new_deaths":  38226,
+        "vaccinations":  265164707
+    },
+    {
+        "region":  "World",
+        "date":  "2022-07-01",
+        "new_cases":  32981058,
+        "new_deaths":  72771,
+        "vaccinations":  268047225
+    },
+    {
+        "region":  "World",
+        "date":  "2022-08-01",
+        "new_cases":  22850430,
+        "new_deaths":  65628,
+        "vaccinations":  226893962
+    },
+    {
+        "region":  "World",
+        "date":  "2022-09-01",
+        "new_cases":  14173487,
+        "new_deaths":  46160,
+        "vaccinations":  181514316
+    },
+    {
+        "region":  "World",
+        "date":  "2022-10-01",
+        "new_cases":  15057500,
+        "new_deaths":  55618,
+        "vaccinations":  151439461
+    },
+    {
+        "region":  "World",
+        "date":  "2022-11-01",
+        "new_cases":  10483582,
+        "new_deaths":  40252,
+        "vaccinations":  122158661
+    },
+    {
+        "region":  "World",
+        "date":  "2022-12-01",
+        "new_cases":  67065915,
+        "new_deaths":  57961,
+        "vaccinations":  148259688
+    },
+    {
+        "region":  "World",
+        "date":  "2023-01-01",
+        "new_cases":  47674052,
+        "new_deaths":  85959,
+        "vaccinations":  103421379
+    },
+    {
+        "region":  "World",
+        "date":  "2023-02-01",
+        "new_cases":  4851818,
+        "new_deaths":  96106,
+        "vaccinations":  46808088
+    },
+    {
+        "region":  "World",
+        "date":  "2023-03-01",
+        "new_cases":  3635718,
+        "new_deaths":  26682,
+        "vaccinations":  65341725
+    },
+    {
+        "region":  "World",
+        "date":  "2023-04-01",
+        "new_cases":  3617660,
+        "new_deaths":  26841,
+        "vaccinations":  31073747
+    },
+    {
+        "region":  "World",
+        "date":  "2023-05-01",
+        "new_cases":  1895281,
+        "new_deaths":  15372,
+        "vaccinations":  40369236
+    },
+    {
+        "region":  "World",
+        "date":  "2023-06-01",
+        "new_cases":  918530,
+        "new_deaths":  8226,
+        "vaccinations":  19477965
+    },
+    {
+        "region":  "World",
+        "date":  "2023-07-01",
+        "new_cases":  1127580,
+        "new_deaths":  5262,
+        "vaccinations":  12326491
+    },
+    {
+        "region":  "World",
+        "date":  "2023-08-01",
+        "new_cases":  1536305,
+        "new_deaths":  6625,
+        "vaccinations":  8745486
+    },
+    {
+        "region":  "World",
+        "date":  "2023-09-01",
+        "new_cases":  830747,
+        "new_deaths":  8827,
+        "vaccinations":  8384200
+    },
+    {
+        "region":  "World",
+        "date":  "2023-10-01",
+        "new_cases":  758741,
+        "new_deaths":  13988,
+        "vaccinations":  7802698
+    },
+    {
+        "region":  "World",
+        "date":  "2023-11-01",
+        "new_cases":  776969,
+        "new_deaths":  10707,
+        "vaccinations":  6882806
+    },
+    {
+        "region":  "World",
+        "date":  "2023-12-01",
+        "new_cases":  1614765,
+        "new_deaths":  18055,
+        "vaccinations":  3035786
+    },
+    {
+        "region":  "World",
+        "date":  "2024-01-01",
+        "new_cases":  640260,
+        "new_deaths":  15004,
+        "vaccinations":  858694
+    },
+    {
+        "region":  "World",
+        "date":  "2024-02-01",
+        "new_cases":  344408,
+        "new_deaths":  8358,
+        "vaccinations":  203881
+    },
+    {
+        "region":  "World",
+        "date":  "2024-03-01",
+        "new_cases":  355645,
+        "new_deaths":  6746,
+        "vaccinations":  261539
+    },
+    {
+        "region":  "World",
+        "date":  "2024-04-01",
+        "new_cases":  147440,
+        "new_deaths":  3083,
+        "vaccinations":  251176
+    },
+    {
+        "region":  "World",
+        "date":  "2024-05-01",
+        "new_cases":  136159,
+        "new_deaths":  2158,
+        "vaccinations":  318613
+    },
+    {
+        "region":  "World",
+        "date":  "2024-06-01",
+        "new_cases":  190568,
+        "new_deaths":  2914,
+        "vaccinations":  233457
+    },
+    {
+        "region":  "World",
+        "date":  "2024-07-01",
+        "new_cases":  201714,
+        "new_deaths":  3180,
+        "vaccinations":  88119
+    },
+    {
+        "region":  "World",
+        "date":  "2024-08-01",
+        "new_cases":  47169,
+        "new_deaths":  815,
+        "vaccinations":  10713
+    }
+]

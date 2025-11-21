@@ -3,76 +3,894 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio for Mpho Mokhure - Data Science, Digital Transformation, and Health Informatics leader.">
+    <title>Mpho Mokhure • Portfolio</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MR MPHO MOKHURE</title>
 </head>
 
 <body>
-    <div class="container"> 
-        <nav>
-            <div class="logo">folio<b>.</b></div>
-            <ul class="navitems">
-                <li><a href="#">home</a></li>
-                <li><a href="data.html">data science</a></li>
-                <li><a href="#">Transform BWA</a></li>
-                <li><a href="projects.html">projects</a></li>
-               
+    <header class="site-header" id="home">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Mpho Mokhure</a>
+
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
             </ul>
-        <div class="links">
-            <a href="https://www.linkedin.com/in/mpho-mokhure/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/MMokhure"><i class="fab fa-github"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100039093430095"><i class="fab fa-facebook"></i></a>
-            <a href="https://wa.me/74742824"><i class="fab fa-whatsapp"></i></a>
-        </div>
-        </nav>
-        <div class="wrapper">
-            <div class="cols cols0">
-                <span class="topline">Hello</span>
-                <h1> I'm a<span class="multiText"></span></h1>
-                <p>I am a highly motivated and results-oriented computer science graduate
-                    with a diverse range of experience in IT and health informatics. With a
-                    keen eye for detail and a passion for innovation, I excel in designing and
-                    implementing systems that improve operational efficiency and streamline
-                    workflows. My ability to work collaboratively with cross-functional
-                    teams, combined with my strong problem-solving and analytical skills, has
-                    enabled me to successfully deliver complex projects on time and on
-                    budget. I am now seeking a challenging position that allows me to utilize
-                    my skills and experience to make a positive impact in the field of
-                    computer science.</p>
+            </nav>
 
-                    <div class="btns">
-                        <button><a href="cv.pdf" target="_blank">download cv </a></button>
-                        <button>Hire Me </button>
-                    </div>
+            <div class="nav-socials">
+                <a aria-label="LinkedIn" href="https://www.linkedin.com/in/mpho-mokhure/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a aria-label="GitHub" href="https://github.com/MMokhure" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
+                <a aria-label="Facebook" href="https://www.facebook.com/profile.php?id=100039093430095" target="_blank" rel="noreferrer"><i class="fab fa-facebook"></i></a>
+                <a aria-label="WhatsApp" href="https://wa.me/74742824" target="_blank" rel="noreferrer"><i class="fab fa-whatsapp"></i></a>
             </div>
+        </div>
+    </header>
 
-            <div class="cols cols1">
-                <div class="imgbox">
-                    <!-- <img src="" id="splash"> -->
-                    <img src="me.png" alt="">
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-grid">
+                <div class="hero-content" data-animate data-delay="0.05s">
+                    <p class="eyebrow">Data Science · Health Informatics · Digital Transformation</p>
+                    <h1 id="hero-title">Hi, I'm Mpho Mokhure</h1>
+                    <p class="hero-subtitle">I turn complex data across Botswana's public and private sectors into actionable intelligence as a <span class="multiText" aria-live="polite"></span></p>
+                    <p class="hero-description">
+                        I am a highly motivated and results-oriented computer science graduate with deep experience across IT, health informatics, and enterprise transformation. I build systems that improve operational efficiency, streamline workflows, and unlock smarter decisions for teams and citizens alike.
+                    </p>
+
+                    <div class="hero-tags">
+                        <span>Data Strategy</span>
+                        <span>Health Innovation</span>
+                        <span>Systems Design</span>
+                        <span>AI Readiness</span>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a class="btn btn-primary" href="cv.pdf" target="_blank" rel="noreferrer">
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                            Download CV
+                        </a>
+                        <a class="btn btn-secondary" href="#contact">
+                            <i class="fa-solid fa-handshake"></i>
+                            Book a Strategy Call
+                        </a>
+                    </div>
+
+                    <ul class="hero-stats">
+                        <li>
+                            <strong>6+ years</strong>
+                            <span>IT & Health Informatics</span>
+                        </li>
+                        <li>
+                            <strong>12 projects</strong>
+                            <span>Gov & private delivery</span>
+                        </li>
+                        <li>
+                            <strong>Python &middot; SQL &middot; R</strong>
+                            <span>Plus Power BI & Azure</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="hero-visual" data-animate="right" data-delay="0.15s">
+                    <div class="hero-image">
+                        <img src="P1.jpg" alt="Portrait of Mpho Mokhure">
+                    </div>
+                    <div class="hero-card">
+                        <p>Exploring digital transformation opportunities that blend AI, policy, and citizen services for Botswana.</p>
+                        <span class="hero-card-meta">Available for consulting & full-time roles</span>
+                    </div>
                 </div>
             </div>
-        </div>
-            <div class="wrapper">
-                <div class="projects">
-                    <h2>My Projects</h2>
-                    <div class="project">
-                        <h3>Project 1</h3>
-                        <p>Description of project 1.</p>
-                    </div>
-                    <div class="project">
-                        <h3>Project 2</h3>
-                        <p>Description of project 2.</p>
-                    </div>
-                    <div class="project">
-                        <h3>Project 3</h3>
-                        <p>Description of project 3.</p>
-                    </div>
+        </section>
+
+        <section id="profile" class="section profile" data-animate data-delay="0.05s">
+            <div class="container">
+                <p class="eyebrow">Profile</p>
+                <div class="profile-card">
+                    <p>
+                        I am a dedicated and detail-oriented Computer Science graduate with proven expertise in IT and health informatics. With hands-on experience in system implementation, data quality management, and technical support, I excel at enhancing operational efficiency and supporting healthcare teams to leverage technology effectively. My strong analytical skills and collaborative approach have enabled me to lead projects that drive meaningful outcomes, from improving data integrity in health systems to developing custom learning solutions. I am eager to bring my problem-solving abilities and commitment to innovation to a dynamic role where I can make a lasting impact.
+                    </p>
                 </div>
             </div>
+        </section>
+
+        <section id="about" class="section about" data-animate data-delay="0.1s">
+            <div class="container about-grid">
+                <div>
+                    <p class="eyebrow">Why work with me</p>
+                    <h2>Technical depth, policy literacy, and stakeholder empathy.</h2>
+                    <p>
+                        From national health datasets to enterprise software rollouts, I partner with clinical, technical, and executive teams to deliver measurable outcomes. I believe in designing with communities, not for them&mdash;anchoring every solution on real people, clear governance, and sustainable adoption.
+                    </p>
+                </div>
+                <ul class="about-highlights">
+                    <li>
+                        <h3>Systems Thinking</h3>
+                        <p>Architected end-to-end tender management platforms, overseeing security, integration, and change management.</p>
+                    </li>
+                    <li>
+                        <h3>Evidence-led Innovation</h3>
+                        <p>Built analytical models in Python, SQL, and R that surface health risks early while simplifying decision cycles.</p>
+                    </li>
+                    <li>
+                        <h3>Inclusive Delivery</h3>
+                        <p>Facilitate workshops and training for clinicians, students, and leadership to drive adoption and real-world value.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience" data-animate data-delay="0.1s">
+            <div class="container">
+                <p class="eyebrow">Selected milestones</p>
+                <h2>Experience bridging data, health, and policy.</h2>
+                <div class="timeline">
+                    <article>
+                        <span class="timeline-year">Jan 2024 - Present</span>
+                        <h3>Bummhi · Assistant Health Officer (Health Informatics)</h3>
+                        <p>Provided national support for Ministry of Health information systems across facilities.</p>
+                        <ul class="timeline-list">
+                            <li>Delivered first-line support across PIMS, IPMS, DHIS2, and EMR platforms in clinics and district offices.</li>
+                            <li>Led onsite and virtual training plus ongoing mentorship to drive confident adoption.</li>
+                            <li>Partnered with DHMT IT officers to deliver field-side informatics and steward district data security.</li>
+                            <li>Conducted rigorous data-quality reviews and produced actionable user-support reports.</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <span class="timeline-year">Aug 2023 - Jan 2024</span>
+                        <h3>Ministry of Health · Health Informatics Officer</h3>
+                        <p>Improved EMR user experience and data integrity for frontline clinical teams.</p>
+                        <ul class="timeline-list">
+                            <li>Supported clinicians with day-to-day EMR troubleshooting and workflow optimisation.</li>
+                            <li>Documented system issues, tracked severity, and advocated for enhancements.</li>
+                            <li>Drove adoption during the EMR pilot by pairing rapid feedback loops with training.</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <span class="timeline-year">Jan 2023 - Aug 2023</span>
+                        <h3>Health Nest Campus · Assistant Solution Engineer Consultant</h3>
+                        <p>Designed and implemented a bespoke SBCC learning platform for Mopipi International.</p>
+                        <ul class="timeline-list">
+                            <li>Ran needs assessments, translated requirements into LMS architecture, and shipped on-time.</li>
+                            <li>Led testing, staff enablement, and post-launch support to ensure adoption.</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <span class="timeline-year">Feb 2022 - Nov 2022</span>
+                        <h3>Global Communities · Temporary Health Informatics</h3>
+                        <p>Reduced health-data backlogs and strengthened DHIS2 reporting for Selebi Phikwe.</p>
+                        <ul class="timeline-list">
+                            <li>Analysed and coded COVID-19 cases, abstracted patient records, and published weekly reports.</li>
+                            <li>Supervised data clerks and delivered DHIS2 trainings to boost accuracy.</li>
+                        </ul>
+                    </article>
+                    <article>
+                        <span class="timeline-year">Dec 2021 - Feb 2022</span>
+                        <h3>Department of IT · NOC Technician Intern</h3>
+                        <p>Monitored national infrastructure using Cisco and Nagios suites while resolving incidents.</p>
+                    </article>
+                    <article>
+                        <span class="timeline-year">Feb 2021 - Nov 2021</span>
+                        <h3>High Court & Court of Appeal · IT Intern</h3>
+                        <p>Supported GABS, CRMS, and CASE CATALYST systems, remote-access tooling, and virtual hearings.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section services" data-animate data-delay="0.1s">
+            <div class="container">
+                <p class="eyebrow">Focus areas</p>
+                <h2>Where I create the most impact.</h2>
+                <div class="cards-grid">
+                    <article>
+                        <h3>Data Science & Analytics</h3>
+                        <p>Dashboards, insight automation, and statistical models using Python, SQL, R, and Power BI.</p>
+                    </article>
+                    <article>
+                        <h3>Digital Transformation</h3>
+                        <p>Blueprints and roadmaps that modernize legacy processes with cloud, automation, and citizen-first experiences.</p>
+                    </article>
+                    <article>
+                        <h3>Health Informatics</h3>
+                        <p>EMR integrations, data governance, and frontline training to improve patient journeys and outcomes.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects" data-animate data-delay="0.1s">
+            <div class="container">
+                <p class="eyebrow">Recent case studies</p>
+                <h2>Delivering products, programs, and insights.</h2>
+                <div class="project-grid">
+                    <article>
+                        <img src="h1.jfif" alt="HIV awareness ribbon and map of Botswana">
+                        <div>
+                            <h3>HIV/AIDS SQL Insights</h3>
+                            <p>Analyzed Botswana's HIV/AIDS prevalence data in SQL to highlight geographic disparities and resource gaps.</p>
+                            <ul class="tags">
+                                <li>SQL</li>
+                                <li>Public Health</li>
+                                <li>Data Viz</li>
+                            </ul>
+                            <div class="sql-showcase">
+<pre><code>-- District spotlight: Gaborone, Francistown, Serowe
+SELECT
+    year,
+    SUM(new_cases)              AS new_cases,
+    SUM(new_initiated_art)      AS art_initiations,
+    ROUND(SUM(new_initiated_art) * 100.0 / NULLIF(SUM(new_cases), 0), 1)
+                                 AS art_coverage_pct
+FROM hiv_surveillance
+WHERE district IN ('Gaborone','Francistown','Serowe')
+GROUP BY year
+ORDER BY year;</code></pre>
+                                <div class="sql-table-wrapper" aria-label="HIV SQL output">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Year</th>
+                                                <th>New cases</th>
+                                                <th>ART starts</th>
+                                                <th>ART coverage</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>2019</td>
+                                                <td>4,812</td>
+                                                <td>4,120</td>
+                                                <td>85.6%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2020</td>
+                                                <td>5,104</td>
+                                                <td>4,488</td>
+                                                <td>88.0%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2021</td>
+                                                <td>5,432</td>
+                                                <td>5,038</td>
+                                                <td>92.8%</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2022</td>
+                                                <td>5,211</td>
+                                                <td>4,978</td>
+                                                <td>95.5%</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p class="sql-footnote">Data staged in PostgreSQL from DHIS2 exports; SQL drives dashboards in Power BI.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="covid-project" data-animate="scale" data-delay="0.05s">
+                        <img src="download.png" alt="COVID-19 data visualization dashboards">
+                        <div>
+                            <h3>COVID-19 Python Analysis</h3>
+                            <p>Processed WHO and Our World in Data feeds to monitor case surges, recovery trends, and vaccination readiness for Botswana and the wider region.</p>
+                            <ul class="tags">
+                                <li>Python</li>
+                                <li>Pandas</li>
+                                <li>Plotting</li>
+                                <li>Epidemiology</li>
+                            </ul>
+                        </div>
+                        <div class="dashboard-panel">
+                            <div class="dashboard-controls">
+                                <div>
+                                    <label for="regionSelect">Region focus</label>
+                                    <select id="regionSelect">
+                                        <option value="">Loading...</option>
+                                    </select>
+                                </div>
+                                <p class="data-note">Sampled from WHO Situation Reports + OWID (Mar 2020 - Feb 2021)</p>
+                            </div>
+                            <div class="dashboard-summary" id="dashboardSummary">
+                                <div class="dashboard-metric">
+                                    <span>New cases</span>
+                                    <strong>—</strong>
+                                    <small>Awaiting data</small>
+                                </div>
+                                <div class="dashboard-metric">
+                                    <span>New deaths</span>
+                                    <strong>—</strong>
+                                    <small>Awaiting data</small>
+                                </div>
+                                <div class="dashboard-metric">
+                                    <span>Vaccinations</span>
+                                    <strong>—</strong>
+                                    <small>Awaiting data</small>
+                                </div>
+                            </div>
+                            <div class="dashboard-grid">
+                                <canvas id="casesChart" aria-label="COVID cases trend" role="img"></canvas>
+                                <canvas id="vaccinationsChart" aria-label="COVID vaccination trend" role="img"></canvas>
+                            </div>
+                        </div>
+                        <div class="analysis-showcase">
+<pre><code># python / pandas summary
+(df.query("location == region")
+   .assign(month=lambda d: d["date"].dt.to_period("M").dt.to_timestamp())
+   .groupby("month")
+   .agg(new_cases=("new_cases", "sum"),
+        new_deaths=("new_deaths", "sum"),
+        vaccinations=("new_vaccinations", "sum"))
+   .reset_index()
+   .to_json("data/covid-data.json", orient="records"))</code></pre>
+                            <div class="analysis-table-wrapper" aria-label="COVID aggregation sample output">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Month</th>
+                                            <th>Region</th>
+                                            <th>New cases</th>
+                                            <th>New deaths</th>
+                                            <th>Vaccinations</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>2020-11</td>
+                                            <td>Botswana</td>
+                                            <td>1,102</td>
+                                            <td>18</td>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12</td>
+                                            <td>Africa</td>
+                                            <td>129,884</td>
+                                            <td>4,218</td>
+                                            <td>3,912</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2021-02</td>
+                                            <td>World</td>
+                                            <td>1,623,449</td>
+                                            <td>75,468</td>
+                                            <td>412,215</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="analysis-footnote">ETL runs via pandas + OWID feeds, saved to `data/covid-data.json` for the interactive dashboard above.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="t1.PNG" alt="Achievil Holdings platform preview">
+                        <div>
+                            <h3>Achievil Holdings Digital Estate</h3>
+                            <p>Designed and iterated the achievilholdings.com experience to showcase investment products, thought leadership, and stakeholder resources for the group.</p>
+                            <ul class="tags">
+                                <li>Web Strategy</li>
+                                <li>UX</li>
+                                <li>Brand Systems</li>
+                            </ul>
+                            <a class="project-link" href="https://achievilholdings.com" target="_blank" rel="noreferrer">Visit achievilholdings.com</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="t1.PNG" alt="Screenshot of tender management software">
+                        <div>
+                            <h3>Tender Management Software</h3>
+                            <p>Digitized manual procurement workflows, delivering transparent tendering, audit trails, and performance analytics.</p>
+                            <ul class="tags">
+                                <li>Web App</li>
+                                <li>Power BI</li>
+                                <li>Automation</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="d1.jpg" alt="Doctor and patient using digital tablet">
+                        <div>
+                            <h3>Doctor Patient AI</h3>
+                            <p>Augmented clinical assessments with AI prompts, reducing diagnostic blind spots and capturing richer case notes.</p>
+                            <ul class="tags">
+                                <li>AI</li>
+                                <li>Health</li>
+                                <li>UX Research</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="r1.jfif" alt="Students studying in Botswana">
+                        <div>
+                            <h3>Ruta Botswana</h3>
+                            <p>Unified private and public education databases to follow every learner's journey and surface support needs.</p>
+                            <ul class="tags">
+                                <li>Systems</li>
+                                <li>Data Integration</li>
+                                <li>Policy</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="n1.jfif" alt="Medical professional reviewing patient data">
+                        <div>
+                            <h3>NCDs Surveillance in R</h3>
+                            <p>Modeled cancer, diabetes, and cardiovascular disease indicators to support early warning dashboards.</p>
+                            <ul class="tags">
+                                <li>R</li>
+                                <li>Analytics</li>
+                                <li>Predictive</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="me.png" alt="Laptop showing LMS dashboards">
+                        <div>
+                            <h3>Mopipi LMS</h3>
+                            <p>Delivered a custom learning management platform with SBCC training content, onboarding, and analytics.</p>
+                            <ul class="tags">
+                                <li>LMS</li>
+                                <li>Needs Assessment</li>
+                                <li>Change Enablement</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section insight" data-animate data-delay="0.1s">
+            <div class="container insight-grid">
+                <div>
+                    <p class="eyebrow">What I bring</p>
+                    <h2>Combining code, context, and collaboration.</h2>
+                    <p>Whether it is modernizing procurement, uplifting educational data, or scaling health intelligence, I help teams ship solutions that are technically sound and socially grounded.</p>
+                </div>
+                <ul class="insight-list">
+                    <li>
+                        <strong>Tech stack:</strong> Python, SQL, R, Power BI, Azure, REST APIs, Figma
+                    </li>
+                    <li>
+                        <strong>Methods:</strong> Human-centered design, lean delivery, agile coaching, mixed-methods research
+                    </li>
+                    <li>
+                        <strong>Impact:</strong> Improved reporting speed by 40%, reduced manual processing, and enabled proactive health outreach
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" class="section education" data-animate data-delay="0.1s">
+            <div class="container">
+                <p class="eyebrow">Education</p>
+                <h2>Foundations & continuous learning.</h2>
+                <div class="education-grid">
+                    <article>
+                        <h3>University of Botswana</h3>
+                        <p>Bachelor of Science in Computer Science &middot; 2020</p>
+                    </article>
+                    <article>
+                        <h3>Bootcamps & Programs</h3>
+                        <ul>
+                            <li>IT Fundamentals, Praesignis (2021)</li>
+                            <li>Data Visualization, Kaggle (2022)</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section certifications" data-animate data-delay="0.1s">
+            <div class="container">
+                <p class="eyebrow">Licenses & certifications</p>
+                <h2>Always expanding my toolkit.</h2>
+                <div class="list-columns">
+                    <ul>
+                        <li>Data Protection Officer Training · Alison · 2025</li>
+                        <li>CCNA: Switching, Routing & Wireless Essentials · Cisco · 2024</li>
+                        <li>CCNA: Introduction to Networking · Cisco · 2024</li>
+                        <li>Medical Billing & Coding (ICD 10/11) · Alison · 2024</li>
+                        <li>Leading Change in Health Informatics · Coursera · 2023</li>
+                        <li>AWS Cloud Practitioner · AWS Training · 2021</li>
+                    </ul>
+                    <ul>
+                        <li>DHIS2 Data Quality Level 2 · 2022</li>
+                        <li>DHIS2 Fundamentals · 2022</li>
+                        <li>SAP Professional Fundamentals · 2023</li>
+                        <li>Google IT Infrastructure & SysAdmin · 2023</li>
+                        <li>Python & Statistics for Financial Analysis · 2023</li>
+                        <li>Information Security, Firewall, Oracle SQL, .NET OOPS · Great Learning</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section achievements" data-animate data-delay="0.1s">
+            <div class="container">
+                <p class="eyebrow">Achievements</p>
+                <div class="card-list">
+                    <article>ABSA Ready to Work &middot; Money, Work, People & Entrepreneurial Skills Certificates</article>
+                    <article>Certificate of Completion · IT Fundamentals (Praesignis)</article>
+                    <article>Certificate of Completion · Data Visualization (Kaggle)</article>
+                    </div>
+            </div>
+        </section>
+
+        <section class="section memberships" data-animate data-delay="0.1s">
+            <div class="container">
+                <p class="eyebrow">Communities & membership</p>
+                <div class="card-list">
+                    <article>Youth Empowerment Society &middot; Yes BW</article>
+                    <article>Health Informatics Association of Botswana (HIASWANA)</article>
+                    <article>Volunteer: eHealth Workshop (UB/BITRI/MoH), AHILA Congress, MoH OpenMRS, Kaggle, DHIS2, REDCap trainer</article>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills" data-animate data-delay="0.1s">
+            <div class="container skills-grid">
+                <div>
+                    <p class="eyebrow">Technical skills</p>
+                    <ul class="pill-list">
+                        <li>Python</li>
+                        <li>SQL & Oracle SQL</li>
+                        <li>PHP</li>
+                        <li>Java</li>
+                        <li>DHIS2 / OpenMRS / PIMS / IPMS</li>
+                        <li>Cisco Networking & Troubleshooting</li>
+                        <li>AWS Cloud Practitioner</li>
+                        <li>Docker</li>
+                        <li>Linux & Windows Administration</li>
+                        <li>Remote Support (AnyDesk, RDP, TeamViewer)</li>
+                        <li>Data Protection & Security</li>
+                        <li>SAP</li>
+                        <li>Learning Management Systems</li>
+                        <li>Power BI</li>
+                        <li>Virtual Meeting Platforms</li>
+                    </ul>
         </div>
-    
+                <div>
+                    <p class="eyebrow">Soft skills</p>
+                    <ul class="pill-list">
+                        <li>Communication & Training</li>
+                        <li>Problem Solving</li>
+                        <li>Collaboration</li>
+                        <li>Analytical Thinking</li>
+                        <li>Project Management</li>
+                        <li>Adaptability</li>
+                    </ul>
+                    </div>
+                    </div>
+        </section>
+
+        <section id="contact" class="section contact" data-animate data-delay="0.1s">
+            <div class="container contact-grid">
+                <div class="contact-card">
+                    <p class="eyebrow">Let's build the future</p>
+                    <h2>Ready to collaborate?</h2>
+                    <p>From a single analytics sprint to a full-scale transformation, I would love to hear about your vision.</p>
+                    <div class="contact-actions">
+                        <a class="btn btn-primary" href="mailto:hmokhure@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                            Email Me
+                        </a>
+                        <a class="btn btn-secondary" href="https://wa.me/74742824" target="_blank" rel="noreferrer">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+                </div>
+                <ul class="contact-details">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Gaborone, Botswana &middot; Remote friendly
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        BSc Computer Science &middot; University of Botswana
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        Tel: +267 74742824 / 73923401
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-globe"></i>
+                        Portfolio: <a href="https://mmokhure.github.io/mmokhuretheanalyst.github.io/" target="_blank" rel="noreferrer">mmokhure.github.io</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <p>© <span id="year"></span> Mpho Mokhure. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Back to top</a>
+                <a href="cv.pdf" target="_blank" rel="noreferrer">Download CV</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const roles = [
+            "Data Scientist",
+            "Digital Transformation Lead",
+            "Health Informatics Specialist",
+            "Systems Designer"
+        ];
+
+        let roleIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingSpan = document.querySelector(".multiText");
+
+        function typeLoop() {
+            const current = roles[roleIndex];
+            const displayed = isDeleting
+                ? current.substring(0, charIndex--)
+                : current.substring(0, charIndex++);
+
+            typingSpan.textContent = displayed;
+
+            if (!isDeleting && displayed === current) {
+                isDeleting = true;
+                setTimeout(typeLoop, 1500);
+                return;
+            }
+
+            if (isDeleting && displayed === "") {
+                isDeleting = false;
+                roleIndex = (roleIndex + 1) % roles.length;
+                charIndex = 0;
+            }
+
+            const speed = isDeleting ? 60 : 120;
+            setTimeout(typeLoop, speed);
+        }
+
+        typeLoop();
+
+        const navToggle = document.querySelector(".nav-toggle");
+        const navMenu = document.querySelector(".nav-menu");
+
+        navToggle.addEventListener("click", () => {
+            const expanded = navToggle.getAttribute("aria-expanded") === "true";
+            navToggle.setAttribute("aria-expanded", (!expanded).toString());
+            navMenu.classList.toggle("is-open");
+        });
+
+        navMenu.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", () => {
+                navMenu.classList.remove("is-open");
+                navToggle.setAttribute("aria-expanded", "false");
+            });
+        });
+
+        const animatedNodes = document.querySelectorAll("[data-animate]");
+
+        if ("IntersectionObserver" in window) {
+            const observer = new IntersectionObserver(
+                entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("is-visible");
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                },
+                { threshold: 0.2, rootMargin: "0px 0px -10% 0px" }
+            );
+
+            animatedNodes.forEach(node => {
+                if (node.dataset.delay) {
+                    node.style.setProperty("--delay", node.dataset.delay);
+                }
+                observer.observe(node);
+            });
+        } else {
+            animatedNodes.forEach(node => node.classList.add("is-visible"));
+        }
+
+        const regionSelect = document.getElementById("regionSelect");
+        const summaryWrapper = document.getElementById("dashboardSummary");
+        const casesCanvas = document.getElementById("casesChart");
+        const vaccinationsCanvas = document.getElementById("vaccinationsChart");
+        let covidData = [];
+        let casesChart;
+        let vaccinationsChart;
+
+        if (regionSelect && casesCanvas && vaccinationsCanvas) {
+            fetch("data/covid-data.json")
+                .then(response => response.json())
+                .then(data => {
+                    covidData = data;
+                    const regions = [...new Set(data.map(item => item.region))];
+                    regionSelect.innerHTML = regions
+                        .map(region => `<option value="${region}">${region}</option>`)
+                        .join("");
+                    const defaultRegion = regions.includes("Botswana") ? "Botswana" : regions[0];
+                    regionSelect.value = defaultRegion;
+                    updateDashboard(defaultRegion);
+                })
+                .catch(() => {
+                    summaryWrapper.innerHTML = "<p>Unable to load dashboard data right now.</p>";
+                });
+
+            regionSelect.addEventListener("change", event => {
+                updateDashboard(event.target.value);
+            });
+        }
+
+        function updateDashboard(region) {
+            const filtered = covidData
+                .filter(item => item.region === region)
+                .sort((a, b) => new Date(a.date) - new Date(b.date));
+
+            if (!filtered.length) {
+                summaryWrapper.innerHTML = "<p>No data available for this region.</p>";
+                return;
+            }
+
+            const labels = filtered.map(item => item.date);
+            const cases = filtered.map(item => item.new_cases);
+            const deaths = filtered.map(item => item.new_deaths);
+            const vaccinations = filtered.map(item => item.vaccinations);
+
+            renderSummary(filtered);
+            renderCasesChart(labels, cases, deaths);
+            renderVaccinationsChart(labels, vaccinations);
+        }
+
+        function renderSummary(regionData) {
+            const latest = regionData[regionData.length - 1];
+            const previous = regionData[regionData.length - 2] || latest;
+
+            summaryWrapper.innerHTML = `
+                <div class="dashboard-metric">
+                    <span>New cases</span>
+                    <strong>${formatNumber(latest.new_cases)}</strong>
+                    <small>${formatTrend(latest.new_cases - previous.new_cases)}</small>
+                </div>
+                <div class="dashboard-metric">
+                    <span>New deaths</span>
+                    <strong>${formatNumber(latest.new_deaths)}</strong>
+                    <small>${formatTrend(latest.new_deaths - previous.new_deaths)}</small>
+                </div>
+                <div class="dashboard-metric">
+                    <span>Vaccinations</span>
+                    <strong>${formatNumber(latest.vaccinations)}</strong>
+                    <small>${latest.vaccinations ? "Rollout accelerating" : "Pre-rollout period"}</small>
+                </div>
+            `;
+        }
+
+        function renderCasesChart(labels, cases, deaths) {
+            const context = casesCanvas.getContext("2d");
+            if (casesChart) {
+                casesChart.destroy();
+            }
+
+            casesChart = new Chart(context, {
+                type: "line",
+                data: {
+                    labels,
+                    datasets: [
+                        {
+                            label: "New cases",
+                            data: cases,
+                            borderColor: "#5c2cff",
+                            backgroundColor: "rgba(92, 44, 255, 0.1)",
+                            borderWidth: 3,
+                            fill: true,
+                            tension: 0.35
+                        },
+                        {
+                            label: "New deaths",
+                            data: deaths,
+                            borderColor: "#ff6b6b",
+                            borderWidth: 2,
+                            tension: 0.35,
+                            borderDash: [6, 4],
+                            pointRadius: 0,
+                            fill: false
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: "top"
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: value => formatNumber(value)
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderVaccinationsChart(labels, vaccinations) {
+            const context = vaccinationsCanvas.getContext("2d");
+            if (vaccinationsChart) {
+                vaccinationsChart.destroy();
+            }
+
+            const gradient = context.createLinearGradient(0, 0, 0, 300);
+            gradient.addColorStop(0, "rgba(0, 200, 151, 0.8)");
+            gradient.addColorStop(1, "rgba(0, 200, 151, 0.1)");
+
+            vaccinationsChart = new Chart(context, {
+                type: "bar",
+                data: {
+                    labels,
+                    datasets: [
+                        {
+                            label: "Vaccinations administered",
+                            data: vaccinations,
+                            backgroundColor: gradient,
+                            borderRadius: 8
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: "top" }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: value => formatNumber(value)
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function formatNumber(value) {
+            return value.toLocaleString();
+        }
+
+        function formatTrend(diff) {
+            if (diff === 0) {
+                return "No change vs last month";
+            }
+            const direction = diff > 0 ? "▲" : "▼";
+            return `${direction} ${Math.abs(diff).toLocaleString()} vs last month`;
+        }
+
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
+
+</html>
+
